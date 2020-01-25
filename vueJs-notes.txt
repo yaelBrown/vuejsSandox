@@ -1,0 +1,27 @@
+VueJS
+  vuejs 16kb for core framework
+  runtime is faster than angular and reactjs
+  feature - rich
+
+  https://discord.gg/gxvEWGU
+    Academind Community on discord
+
+  https://jsfiddle.net/smax/c4mcxu7s/
+    JSFiddle
+
+  https://unpkg.com/vue/dist/vue.js
+    Latest version of vue, can be directly imported to html page.
+    need to add event listener if importing Vuejs this way.
+      https://stackoverflow.com/questions/29484431/vue-warn-cannot-find-element/29484590
+    http://vuejs.org/guide/installation.html
+
+  Directives - special token in the markup that tells the library to do something to a DOM element
+    v-on:input - has to be es5
+    v-once: - Stick to initial value (read only)
+    v-bind:href - binds data dynamically
+    v-html - render html code and not escape it
+      Does expose you to XSS
+
+  {{}} - syntax is called Interpolation or String Interpolation
+
+16.
