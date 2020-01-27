@@ -15,6 +15,31 @@ VueJS
       https://stackoverflow.com/questions/29484431/vue-warn-cannot-find-element/29484590
     http://vuejs.org/guide/installation.html
 
+  JSFiddle Links:
+    Getting Started: https://jsfiddle.net/smax/pcjtcmdm/
+    Template Syntax: https://jsfiddle.net/smax/bkk97b7g/
+    Events: https://jsfiddle.net/smax/7zdak05g/
+    Two-Way-Binding: https://jsfiddle.net/smax/ut0tsbcu/
+    Computed Properties & Watch: https://jsfiddle.net/smax/yLjqxmw0/
+    Dynamic Classes: https://jsfiddle.net/smax/gowg40ym/
+    Dynamic Styles: https://jsfiddle.net/smax/3rvdLq5y/
+
+  Further Links:
+    Official Docs - Getting Started: http://vuejs.org/guide/
+    Official Docs - Template Syntax: http://vuejs.org/guide/syntax.html
+    Official Docs - Events: http://vuejs.org/guide/events.html
+    Official Docs - Computed Properties & Watchers: http://vuejs.org/guide/computed.html
+    Official Docs - Class & Style Binding: http://vuejs.org/guide/class-and-style.html
+
+  Known options for Vue Instance
+    el - Connects to DOM
+    data - Store Data to be used
+    methods - Methods of this Vue Instance
+    computed - Dependent properties
+      can used like a property in the data object
+      working with dependencies
+    watch - excute code upon data changes
+
   Directives - special token in the markup that tells the library to do something to a DOM element
     v-on:input - has to be es5
     v-once: - Stick to initial value (read only)
@@ -22,6 +47,14 @@ VueJS
     v-html - render html code and not escape it
       Does expose you to XSS
 
+    v-model - used for 2 way binding. Updates the variable and where that variable is used throughout the application
+
   {{}} - syntax is called Interpolation or String Interpolation
 
-16.
+  shorthand
+    v-on = @
+      v-on:click = @click
+    v-bind = :
+      v-bind:href = :href
+
+  CSS is same as with vanilla

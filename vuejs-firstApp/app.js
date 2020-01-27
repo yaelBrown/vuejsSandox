@@ -4,7 +4,8 @@ window.addEventListener('load', () => {
     data: {
       title: "",
       title2: 'Hello World!',
-      link: 'http://www.redhat.com'
+      link: 'http://www.redhat.com',
+      attachRed: false
     },
     methods: {
       changeTitle: function() {
