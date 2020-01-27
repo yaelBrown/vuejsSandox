@@ -8,6 +8,9 @@ VueJS
   Virtual DOM
   Growing in the industry
 
+  Vetur plugin for VSCode
+    docs - https://vuejs.github.io/vetur/snippet.html
+
   https://vuejs.org/v2/guide/
     Vue JS documentation
 
@@ -80,6 +83,12 @@ VueJS
     Functionality
     Style
 
+    Need to keep one element inside of component. (similar to react)
+      <template><div>all your html code</div></template>
+
+    <vue
+      using vetur plugin creates component with all the anatomy items
+
   Vue-Cli 3
     vue's command line interface
     tool for generating and building vue apps
@@ -98,6 +107,9 @@ VueJS
 
     npm run serve
       starts the development server
+
+    main.js - entry point for vue app
+    App.vue - is a component
 
   Vuex for state management
     manage application level state.
