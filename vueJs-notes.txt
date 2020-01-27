@@ -2,6 +2,20 @@ VueJS
   vuejs 16kb for core framework
   runtime is faster than angular and reactjs
   feature - rich
+  Makes creating UIs and front-end apps much easier
+  Less of a learning curve than other frameworks
+  Build powerful SPA apps
+  Virtual DOM
+  Growing in the industry
+
+  https://vuejs.org/v2/guide/
+    Vue JS documentation
+
+  https://cli.vuejs.org/guide/
+    Vue Cli documentation
+
+  https://github.com/bradtraversy/vue_crash_todolist
+    vuejs-TodoApp
 
   https://discord.gg/gxvEWGU
     Academind Community on discord
@@ -58,3 +72,36 @@ VueJS
       v-bind:href = :href
 
   CSS is same as with vanilla
+    scoped - encapsulates style to one particular component.
+      <style scoped></style>
+
+  Anatomy of a component
+    Output
+    Functionality
+    Style
+
+  Vue-Cli 3
+    vue's command line interface
+    tool for generating and building vue apps
+    includes babel, typescript, eslint, postCSS and more
+    includes dev server with hot reload
+    includes Vue UI tool to manage app with GUI
+
+    npm install -g @vue/cli
+      installs latest version of vue cli globally
+
+    vue create [name]
+      creates app with vue cli cmd
+
+    vue ui
+      creates application with ui interface
+
+    npm run serve
+      starts the development server
+
+  Vuex for state management
+    manage application level state.
+      similar to redux or flux
+    central store for all components
+    uses actions to update global state and send down to components
+    used in larger applications
