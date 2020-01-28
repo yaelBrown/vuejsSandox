@@ -117,3 +117,5 @@ VueJS
     central store for all components
     uses actions to update global state and send down to components
     used in larger applications
+
+    23:32

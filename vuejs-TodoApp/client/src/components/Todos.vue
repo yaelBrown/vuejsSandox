@@ -1,35 +1,24 @@
 <template>
   <div>
-
+    <h1>Todos</h1>
+    <div v-bind:key="todo.id" v-for="todo in todos">
+      <TodoItem :todo="todo" />
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: "todos",
-  data: {
-      [
-        {
-          "id": 1,
-          "name": "Todo Item",
-          "isCompleted": false
-        },
-        {
-          "id": 2,
-          "name": "Todo Item",
-          "isCompleted": false
-        },
-        {
-          "id": 3,
-          "name": "Todo Item",
-          "isCompleted": false
-        }
-      ]
-  }
+import TodoItem from './TodoItem.vue';
 
-}
+export default {
+  name: "Todos",
+  components: {
+    TodoItem
+  },
+  props: ["todos"]
+};
 </script>
 
-<style lang="stylus" scoped>
+<style scoped>
 
 </style>
