@@ -118,4 +118,13 @@ VueJS
     uses actions to update global state and send down to components
     used in larger applications
 
+  Router
+    npm install vue-Router
+      installs router
+
+    $route.params.id
+      get params that are bind to routes for router
+
+
+
     23:32
