@@ -1,0 +1,130 @@
+VueJS
+  vuejs 16kb for core framework
+  runtime is faster than angular and reactjs
+  feature - rich
+  Makes creating UIs and front-end apps much easier
+  Less of a learning curve than other frameworks
+  Build powerful SPA apps
+  Virtual DOM
+  Growing in the industry
+
+  Vetur plugin for VSCode
+    docs - https://vuejs.github.io/vetur/snippet.html
+
+  https://vuejs.org/v2/guide/
+    Vue JS documentation
+
+  https://cli.vuejs.org/guide/
+    Vue Cli documentation
+
+  https://github.com/bradtraversy/vue_crash_todolist
+    vuejs-TodoApp
+
+  https://discord.gg/gxvEWGU
+    Academind Community on discord
+
+  https://jsfiddle.net/smax/c4mcxu7s/
+    JSFiddle
+
+  https://unpkg.com/vue/dist/vue.js
+    Latest version of vue, can be directly imported to html page.
+    need to add event listener if importing Vuejs this way.
+      https://stackoverflow.com/questions/29484431/vue-warn-cannot-find-element/29484590
+    http://vuejs.org/guide/installation.html
+
+  JSFiddle Links:
+    Getting Started: https://jsfiddle.net/smax/pcjtcmdm/
+    Template Syntax: https://jsfiddle.net/smax/bkk97b7g/
+    Events: https://jsfiddle.net/smax/7zdak05g/
+    Two-Way-Binding: https://jsfiddle.net/smax/ut0tsbcu/
+    Computed Properties & Watch: https://jsfiddle.net/smax/yLjqxmw0/
+    Dynamic Classes: https://jsfiddle.net/smax/gowg40ym/
+    Dynamic Styles: https://jsfiddle.net/smax/3rvdLq5y/
+
+  Further Links:
+    Official Docs - Getting Started: http://vuejs.org/guide/
+    Official Docs - Template Syntax: http://vuejs.org/guide/syntax.html
+    Official Docs - Events: http://vuejs.org/guide/events.html
+    Official Docs - Computed Properties & Watchers: http://vuejs.org/guide/computed.html
+    Official Docs - Class & Style Binding: http://vuejs.org/guide/class-and-style.html
+
+  Known options for Vue Instance
+    el - Connects to DOM
+    data - Store Data to be used
+    methods - Methods of this Vue Instance
+    computed - Dependent properties
+      can used like a property in the data object
+      working with dependencies
+    watch - excute code upon data changes
+
+  Directives - special token in the markup that tells the library to do something to a DOM element
+    v-on:input - has to be es5
+    v-once: - Stick to initial value (read only)
+    v-bind:href - binds data dynamically
+    v-html - render html code and not escape it
+      Does expose you to XSS
+
+    v-model - used for 2 way binding. Updates the variable and where that variable is used throughout the application
+
+  {{}} - syntax is called Interpolation or String Interpolation
+
+  shorthand
+    v-on = @
+      v-on:click = @click
+    v-bind = :
+      v-bind:href = :href
+
+  CSS is same as with vanilla
+    scoped - encapsulates style to one particular component.
+      <style scoped></style>
+
+  Anatomy of a component
+    Output
+    Functionality
+    Style
+
+    Need to keep one element inside of component. (similar to react)
+      <template><div>all your html code</div></template>
+
+    <vue
+      using vetur plugin creates component with all the anatomy items
+
+  Vue-Cli 3
+    vue's command line interface
+    tool for generating and building vue apps
+    includes babel, typescript, eslint, postCSS and more
+    includes dev server with hot reload
+    includes Vue UI tool to manage app with GUI
+
+    npm install -g @vue/cli
+      installs latest version of vue cli globally
+
+    vue create [name]
+      creates app with vue cli cmd
+
+    vue ui
+      creates application with ui interface
+
+    npm run serve
+      starts the development server
+
+    main.js - entry point for vue app
+    App.vue - is a component
+
+  Vuex for state management
+    manage application level state.
+      similar to redux or flux
+    central store for all components
+    uses actions to update global state and send down to components
+    used in larger applications
+
+  Router
+    npm install vue-Router
+      installs router
+
+    $route.params.id
+      get params that are bind to routes for router
+
+
+
+    23:32
